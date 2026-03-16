@@ -30,7 +30,7 @@ const Testimonials: React.FC = () => {
             <img
               alt="Abstract Nature"
               className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale mix-blend-luminosity group-hover:scale-105 transition-transform duration-1000"
-              src="/assets/c7f83ca2-8834-4deb-8448-b3bbb5_4ff34c43bccd.webp"
+              src={`${import.meta.env.BASE_URL}assets/c7f83ca2-8834-4deb-8448-b3bbb5_4ff34c43bccd.webp`}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
             <div className="absolute bottom-8 lg:bottom-12 left-8 lg:left-12 z-10">
@@ -74,7 +74,7 @@ const Testimonials: React.FC = () => {
                   <img
                     alt="User"
                     className="w-full h-full object-cover"
-                    src="/assets/150_4f363cc9cbaa.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/150_4f363cc9cbaa.jpg`}
                   />
                 </div>
                 <div>
@@ -125,7 +125,7 @@ const Testimonials: React.FC = () => {
                   <img
                     alt="User"
                     className="w-full h-full object-cover"
-                    src="/assets/150_6c964dacfd02.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/150_6c964dacfd02.jpg`}
                   />
                 </div>
                 <div>
@@ -168,7 +168,7 @@ const Testimonials: React.FC = () => {
                   <img
                     alt="User"
                     className="w-full h-full object-cover"
-                    src="/assets/150_56a40793991a.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/150_56a40793991a.jpg`}
                   />
                 </div>
                 <div>

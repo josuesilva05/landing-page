@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             <img
               alt="Case Study Interface"
               className="transition-transform duration-1000 group-hover:scale-105 opacity-80 w-full h-full object-cover absolute inset-0"
-              src="/assets/fa10ce6c-f914-4d7e-90ee-954612_eecd4c36aefd.webp"
+              src={`${import.meta.env.BASE_URL}assets/fa10ce6c-f914-4d7e-90ee-954612_eecd4c36aefd.webp`}
             />
             <div className="absolute top-4 left-4 z-10">
               <span className="px-3 py-1.5 bg-black/50 backdrop-blur-md border border-white/10 text-[10px] font-semibold tracking-wider uppercase rounded text-white">

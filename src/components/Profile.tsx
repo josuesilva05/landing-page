@@ -36,7 +36,7 @@ const Profile: React.FC = () => {
               <img
                 alt="Profile"
                 className="group-hover:grayscale-0 transition-all duration-700 w-full h-full object-cover"
-                src="/assets/ray.jpg"
+                src={`${import.meta.env.BASE_URL}assets/ray.jpg`}
               />
               <div className="bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-80 absolute top-0 right-0 bottom-0 left-0"></div>
 

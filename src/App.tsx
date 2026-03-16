@@ -13,7 +13,7 @@ function App() {
         <img
           alt="Designer"
           className="h-[60vh] lg:h-[92vh] w-auto object-cover opacity-80 saturate-0 mix-blend-luminosity"
-          src="/assets/848d89a4-9074-40a7-8a7a-5d6d38_bebccf3e3480.png"
+          src={`${import.meta.env.BASE_URL}assets/848d89a4-9074-40a7-8a7a-5d6d38_bebccf3e3480.png`}
           style={{
             maskImage:
               "linear-gradient(to bottom, black 50%, transparent 100%)",
